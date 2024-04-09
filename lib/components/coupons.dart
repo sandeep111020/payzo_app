@@ -46,7 +46,7 @@ class Coupons extends StatelessWidget{
                         child:  Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: <Widget>[
-                            Image.asset('assets/store.png',height: 25,width: 25),
+                            Image.asset('assets/Store.png',height: 25,width: 25),
                             Image.asset('assets/Vector.png',height: 25,width: 25,)
                           ],
                         ),
@@ -218,7 +218,7 @@ class Coupons extends StatelessWidget{
                           child:  Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: <Widget>[
-                              Image.asset('assets/store.png',height: 25,width: 25),
+                              Image.asset('assets/Store.png',height: 25,width: 25),
                               Image.asset('assets/Vector.png',height: 25,width: 25,)
                                  ],
                           ),
@@ -431,7 +431,7 @@ class Coupons extends StatelessWidget{
                           child:  Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: <Widget>[
-                              Image.asset('assets/store.png',height: 25,width: 25),
+                              Image.asset('assets/Store.png',height: 25,width: 25),
                               Image.asset('assets/Vector.png',height: 25,width: 25,),
 
 
@@ -468,7 +468,7 @@ class Coupons extends StatelessWidget{
                             title: Container(
                               alignment: Alignment.center,
                               child: Text(
-                                'Will Expire in 7 days',
+                                'Expire in 7 days',
                                 style: TextStyle(
                                   fontWeight: FontWeight.normal,
                                   fontSize: 11,

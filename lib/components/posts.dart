@@ -65,7 +65,7 @@ class PostItem extends StatelessWidget{
             ),
 
             Image.asset(
-              'assets/rectangle 13.png',
+              'assets/Rectangle 13.png',
               height: 250,
               width: MediaQuery.of(context).size.width,
             ),

@@ -57,6 +57,8 @@ class _BottomNavigationBarExampleState
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          elevation: 0,
+          toolbarHeight: 100,
         leading: Image.asset('assets/icon_1.png',height: 30,width: 30),
         actions: <Widget>[Image.asset('assets/wallet_icon_2.png',height: 30,width: 30)],
         // Here we take the value from the MyHomePage object that was created by
@@ -84,7 +86,7 @@ class _BottomNavigationBarExampleState
             label: '',
           ),
           BottomNavigationBarItem(
-            icon:  Image.asset('assets/store.png',height: 30,width: 30),
+            icon:  Image.asset('assets/Store.png',height: 30,width: 30),
             label: '',
           ),
           BottomNavigationBarItem(
