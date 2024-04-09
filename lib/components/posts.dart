@@ -66,15 +66,33 @@ class PostItem extends StatelessWidget{
 
             Image.asset(
               'assets/Rectangle 13.png',
-              height: 250,
+              height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width,
+              fit: BoxFit.fill
             ),
 
             ListTile(
                 leading: Wrap(
                   children: [
                     Image.asset('assets/website 1.png',height: 30,width: 30,),
-                    Image.asset('assets/solar_menu-dots-square-linear.png',height: 30,width: 30,),
+                    Container(
+                      padding: const EdgeInsets.only(left: 5.0, right: 3.0) ,
+                      margin: const EdgeInsets.only(bottom: 10) ,
+                      height: 30,
+                      width: 30,
+                      decoration: BoxDecoration(
+                        border: Border.all(width: 2,color: Colors.black),
+                        borderRadius: BorderRadius.all(Radius.circular(3.0) ),
+                      ),
+                      child: Text(
+                        '...',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 17,
+
+                        ),
+                      ),
+                    ),
                     Image.asset('assets/save-instagram 1.png',height: 30,width: 30,),
                   ],
                 ),

@@ -18,6 +18,7 @@ class Coupons extends StatelessWidget{
                   children: <Widget>[
                     Container(
                       height: 110,
+                      width: MediaQuery.of(context).size.width/3,
                       decoration: BoxDecoration(
                         border: Border.all(width: 1,color: Colors.black),
                       ),
@@ -26,6 +27,7 @@ class Coupons extends StatelessWidget{
 
                     Container(
                       height: 110,
+                        width: MediaQuery.of(context).size.width*3/5,
                       decoration: BoxDecoration(
                         border: Border.all(width: 1,color: Colors.black),
                       ),
@@ -80,6 +82,7 @@ class Coupons extends StatelessWidget{
                           ),
                           title: Container(
                             alignment: Alignment.center,
+                            margin: EdgeInsets.only(bottom: 10),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
@@ -175,6 +178,7 @@ class Coupons extends StatelessWidget{
                   children: <Widget>[
                     Container(
                       height: 110,
+                      width: MediaQuery.of(context).size.width/3,
                       decoration: BoxDecoration(
                         border: Border.all(width: 1,color: Colors.black),
                       ),
@@ -252,6 +256,7 @@ class Coupons extends StatelessWidget{
                             ),
                             title: Container(
                               alignment: Alignment.center,
+                              margin: EdgeInsets.only(bottom: 10),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
@@ -347,6 +352,7 @@ class Coupons extends StatelessWidget{
                   children: <Widget>[
                     Container(
                       height: 110,
+                      width: MediaQuery.of(context).size.width/3,
                       decoration: BoxDecoration(
                         border: Border.all(width: 1,color: Colors.black),
                       ),

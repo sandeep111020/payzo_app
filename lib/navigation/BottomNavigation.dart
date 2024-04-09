@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:payzo_app/components/coupons.dart';
 import 'package:payzo_app/components/posts.dart';
 
-/// Flutter code sample for [BottomNavigationBar].
-
-// void main() => runApp(const BottomNavigationBarExampleApp());
-
 class BottomNavigationBarExampleApp extends StatelessWidget {
   const BottomNavigationBarExampleApp({super.key});
 
